@@ -55,6 +55,7 @@ li::before{
     scale: 0;
     transition: scale 180ms ease-in-out;
 }
+
 li:hover::before{
     scale: 1;
 }
@@ -63,9 +64,8 @@ h1{
     font-size: 5rem;
     margin-inline: auto;
     width: fit-content;
-    margin-top: 8rem;
-
-    margin-bottom: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
     text-align: center;
     letter-spacing: 1rem;
     font-family: 'tegami', sans-serif;
@@ -86,26 +86,7 @@ h1{
     background-position-x: 50%;
 }
 
-.icons{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    position: absolute;
-    bottom: 30%;
-    right: 50%;
-    transform: translateX(50%);
-}
-ion-icon {
-    font-size: 2rem;
-    cursor: pointer;
-    transition: color 150ms ease-in-out;
-  }
-  ion-icon:hover{
-    color: rgb(158, 158, 158);
-    scale: 1.1;
-  }
-
-/* section {
+section {
     height: 20vh;
     display: flex;
     align-items: center;
@@ -185,7 +166,7 @@ ion-icon {
   
   .icon-item:nth-child(5) a:hover:before { 
     background: var(--social-icon5); 
-  } */
+  }
 
 @font-face {
     font-family: "tegami";
