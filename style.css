@@ -65,7 +65,7 @@ h1{
     margin-inline: auto;
     width: fit-content;
     margin-top: 10rem;
-    margin-bottom: 15rem;
+    /* margin-bottom: 5rem; */
     text-align: center;
     letter-spacing: 1rem;
     font-family: 'tegami', sans-serif;
@@ -86,17 +86,22 @@ h1{
     background-position-x: 50%;
 }
 
-section {
+.social-icons {
     height: 20vh;
     display: flex;
+    margin-bottom: 5rem;
     align-items: center;
     justify-content: center;  
-    background: var(--bg);
+    /* background: var(--bg); */
     z-index: -10;
+  }
+  .md.hydrated{
+    width: 30px;
+    aspect-ratio: 1/1;
   }
 
   .icon-list {
-    width: 100%;
+    /* width: 100%; */
     max-width: 50rem;
     padding: 0 1.5rem;
     display: flex;
@@ -108,12 +113,13 @@ section {
   }
   
   .icon-link {  
-    display: inline-flex;
+    display: grid;
+    place-items: center;
     font-size: 3rem;  
     text-decoration: none;  
     color: var(--color-icon);
-    width: 6rem;
-    height: 6rem;   
+    width: 4rem;
+    height: 4rem;   
     transition: .5s linear;
     position: relative;
     z-index: 1;
@@ -135,8 +141,8 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 6rem;
-    height: 6rem;
+    /* width: 6rem; */
+    /* height: 6rem; */
     background: #000;
     border-radius: 50%;
     z-index: -1;
