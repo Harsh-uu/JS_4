@@ -24,7 +24,7 @@ body{
 
 header{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 }
 
@@ -88,7 +88,7 @@ h3{
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     right: 50%;
     transform: translateX(50%);
     background-image: url('https://aniyuki.com/wp-content/uploads/2021/08/aniyuki-roronoa-zoro-79.jpg');
