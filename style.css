@@ -72,6 +72,7 @@ h1{
     text-align: center;
     letter-spacing: 1rem;
     font-family: 'tegami', sans-serif;
+    color: #cd201f;
 }
 
 h3{
@@ -87,10 +88,11 @@ h3{
     width: 12rem;
     background-color: white;
     border-radius: 50%;
-    position: absolute;
-    bottom: -30%;
-    right: 50%;
-    transform: translateX(50%);
+    margin: auto;
+    /* position: absolute; */
+    /* bottom: -30%; */
+    /* right: 50%; */
+    /* transform: translateX(50%); */
     background-image: url('https://aniyuki.com/wp-content/uploads/2021/08/aniyuki-roronoa-zoro-79.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +102,7 @@ h3{
 .social-icons {
     height: 20vh;
     display: flex;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     align-items: center;
     justify-content: center;  
     /* background: var(--bg); */
@@ -202,4 +204,12 @@ h3{
 }
 nav{
   padding-inline: 3rem;
+}
+
+.line{
+  /* padding-bottom: 2rem; */
+  border: 1px solid red;
+  max-width: 65vw;
+  margin-inline: auto;
+  margin-top: 2rem;
 }
