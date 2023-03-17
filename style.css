@@ -208,8 +208,52 @@ nav{
 
 .line{
   /* padding-bottom: 2rem; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 65vw;
   margin-inline: auto;
   margin-top: 2rem;
+}
+
+.skills{
+  position: relative;
+  background-color: black;
+  padding-block: 2rem;
+  isolation: isolate;
+}
+
+.skills>.S_Title{
+  font-family: 'Satisfy', cursive;
+text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.pills{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.pill{
+  aspect-ratio: 1/1;
+  width: 8rem;
+  display: grid;
+  place-items: center;
+  font-size: larger;
+  background: #15101e;
+  border-radius: 9999px;
+  border: 1px solid white;
+}
+.pill>.icon{
+  font-size: 2rem;
+  transition: scale 150ms ease-in-out;
+  color: #535c68;
+
+}
+.pill:hover>.icon{
+  /* color: rgb(108, 108, 108); */
+  scale: 1.2;
 }
