@@ -231,26 +231,37 @@ text-align: center;
 
 .pills{
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem 2rem;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 2rem 2rem; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 .pill{
-  aspect-ratio: 1/1;
-  width: 8rem;
+  
+  margin-inline: auto;
+  /* padding-inline: 5rem; */
+  width: 50%;
+  height: 25%;
+  padding-block: 1rem;
+  margin-block: 3rem;
   display: grid;
-  place-items: center;
+  place-items: left;
   font-size: larger;
   background: #15101e;
-  border-radius: 9999px;
-  border: 1px solid white;
+  border-radius: 0.5rem;
+  border: 1px solid #0c100d;
 }
 .pill>.icon{
-  font-size: 2rem;
+  font-size: 6rem;
   transition: scale 150ms ease-in-out;
   color: #535c68;
+  margin-left: 3rem;
+  border: 1px solid #535c68;
+  border-width: 0.1rem;
+  padding-inline: 2rem;
+  border-radius: 50%;
+  /* margin-block: 4rem; */
 
 }
 .pill:hover>.icon{
